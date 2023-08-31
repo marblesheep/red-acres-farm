@@ -3,12 +3,12 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Red Acres Farm</title>
+	<meta name="description" content="Red Acres Farm webpage" />
 </svelte:head>
 
 <section>
-	<div class="hero min-h-screen">
+	<div class="hero min-h-max">
 		<div class="hero-content text-center">
 			<div class="max-w-90">
 				<div class="title">
@@ -33,10 +33,11 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.6;
+		flex: 0.2;
 	}
 
 	.title {
-		margin-bottom: 5em;
+		margin-top:-5em;
+		margin-bottom: 2em;
 	}
 </style>

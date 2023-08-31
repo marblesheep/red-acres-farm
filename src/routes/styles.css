@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	background: #f0f0d8;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -87,7 +91,7 @@ img {
 	font-size: 2rem;
 	letter-spacing: 1px;
 	outline: none;
-	box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+	/* box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2); */
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 	/*
 	Above is shorthand for:
@@ -96,9 +100,10 @@ img {
 	border-bottom-right-radius: 225px 15px;
 	border-bottom-left-radius:15px 255px;
 	*/
-	&:hover {
+	/* Will add back hover later after changing hero image */
+	/* &:hover {
 		box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
-	}
+	} */
 	&.lined.thick {
 		border: solid 7px #41403e;
 	}
