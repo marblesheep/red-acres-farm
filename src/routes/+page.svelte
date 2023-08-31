@@ -10,9 +10,7 @@
 </svelte:head>
 
 <section>
-	<h1>
-		Red Acres Farm
-	</h1>
+	<h1>Red Acres Farm</h1>
 </section>
 
 <style>
