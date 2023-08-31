@@ -16,7 +16,7 @@
 					<h1 class="text-8xl font-bold text-primary">Red Acres Farm</h1>
 				</div>
 				<img
-					class="my-12 object-scale-down h-auto max-w-full lined thin"
+					class="my-12 h-auto max-w-full lined thin"
 					src={tequilaHeroImage}
 					alt="black shiba inu dog"
 				/>
@@ -37,7 +37,23 @@
 	}
 
 	.title {
-		margin-top:-5em;
+		margin-top: -5em;
 		margin-bottom: 2em;
+	}
+
+	img {
+		align-self: center;
+		background: transparent;
+		transition: all 0.5s ease;
+		outline: none;
+		/* box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2); */
+		border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+		/*
+		Above is shorthand for:
+		border-top-left-radius: 255px 15px;
+		border-top-right-radius: 15px 225px;
+		border-bottom-right-radius: 225px 15px;
+		border-bottom-left-radius:15px 255px;
+		*/
 	}
 </style>

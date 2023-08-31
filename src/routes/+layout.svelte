@@ -1,6 +1,6 @@
 <script>
 	import Footer from './Footer.svelte';
-import Header from './Header.svelte';
+	import Header from './Header.svelte';
 	import './styles.css';
 </script>
 
@@ -8,13 +8,13 @@ import Header from './Header.svelte';
 	<header>
 		<Header />
 	</header>
-	
+
 	<main>
 		<slot />
 	</main>
 
 	<footer>
-		<Footer/>
+		<Footer />
 	</footer>
 </div>
 
