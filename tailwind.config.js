@@ -2,10 +2,14 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+      colors: {
+        "primary": "#41403e",
+      },
+			maxWidth: {
+				90: '90%'
+			}
+		}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')],
-	daisyui: {
-		themes: ['autumn', 'dark']
-	}
 };

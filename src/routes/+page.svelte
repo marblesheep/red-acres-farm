@@ -1,7 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import tequilaHeroImage from '$lib/images/tequila-hero.jpg';
 </script>
 
 <svelte:head>
@@ -10,7 +8,23 @@
 </svelte:head>
 
 <section>
-	<h1>Red Acres Farm</h1>
+	<div class="hero min-h-screen">
+		<div class="hero-content text-center">
+			<div class="max-w-90">
+				<div class="title">
+					<h1 class="text-5xl font-bold text-primary">Welcome to</h1>
+					<h1 class="text-8xl font-bold text-primary">Red Acres Farm</h1>
+				</div>
+				<img
+					class="my-12 object-scale-down h-auto max-w-full lined thin"
+					src={tequilaHeroImage}
+					alt="black shiba inu dog"
+				/>
+				<button class="dashed thin">Maple Syrup</button>
+				<button class="dashed thin">Lavender</button>
+			</div>
+		</div>
+	</div>
 </section>
 
 <style>
@@ -22,11 +36,7 @@
 		flex: 0.6;
 	}
 
-	h1 {
-		width: 100%;
-		color: rgba(125, 0, 0, 0.9);
-		font-family: Georgia, 'Times New Roman', Times, serif;
-		font-size: 10em;
-		-webkit-text-stroke: 5px white; /* width and color */
+	.title {
+		margin-bottom: 5em;
 	}
 </style>
