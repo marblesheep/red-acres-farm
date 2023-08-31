@@ -39,11 +39,11 @@
 
 	.selected {
 		border: solid 2px #8c1c04;
-        transition: all 0.5s ease;
+		transition: all 0.5s ease;
 	}
 
 	a:hover {
 		border: dashed 2px #8c1c04;
-        transition: all 0.5s ease;
+		transition: all 0.5s ease;
 	}
 </style>
