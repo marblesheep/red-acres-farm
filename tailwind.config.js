@@ -9,6 +9,7 @@ export default {
 				accent: '#BF5B05'
 			},
 			maxWidth: {
+				80: '80%',
 				90: '90%'
 			}
 		}

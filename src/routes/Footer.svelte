@@ -3,10 +3,3 @@
 </p>
 
 <!-- ® -->
-
-<style>
-	.footer {
-		position: absolute;
-		bottom: 5px;
-	}
-</style>

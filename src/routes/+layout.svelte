@@ -5,11 +5,11 @@
 </script>
 
 <div class="app">
-	<header>
+	<header class="sticky top-0 z-50">
 		<Header />
 	</header>
 
-	<main>
+	<main class="relative">
 		<slot />
 	</main>
 

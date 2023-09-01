@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<div class="hero min-h-max">
+	<div class="hero min-h-screen">
 		<div class="hero-content text-center">
 			<div class="max-w-90">
 				<p class="my-12 text-2xl text-primary">We are a small independent farm in Vermont.</p>

@@ -8,9 +8,9 @@
 </svelte:head>
 
 <section>
-	<div class="hero min-h-max">
+	<div class="hero min-h-screen">
 		<div class="hero-content text-center">
-			<div class="max-w-90">
+			<div class="max-w-80">
 				<div class="title">
 					<h1 class="text-5xl font-bold text-primary">Welcome to</h1>
 					<h1 class="text-8xl font-bold text-primary">Red Acres Farm</h1>
