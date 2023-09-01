@@ -27,10 +27,29 @@
 	<div class="navbar-end" />
 </div>
 
+<!-- <div class="flex content-center justify-center">
+	<ul class="menu menu-vertical lg:menu-horizontal rounded-box">
+		<li>
+			<a
+				class="mx-2 p-2 rounded-lg text-2xl text-secondary {current === '/' ? 'selected' : ''}"
+				href="/"
+				on:click={() => (current = '/')}>Home</a
+			>
+		</li>
+		<li>
+			<a
+				class="mx-2 p-2 rounded-lg text-2xl text-secondary {current === '/about' ? 'selected' : ''}"
+				href="/about"
+				on:click={() => (current = '/about')}>About Us</a
+			>
+		</li>
+	</ul>
+</div> -->
+
 <style>
 	a {
-		border: 2px solid #f0f0d8;
-        border-radius: 50px 255px 50px 155px/255px 40px 220px 55px;
+		border: 2px solid var(--background-color);
+		border-radius: 50px 255px 50px 155px/255px 40px 220px 55px;
 	}
 
 	a:hover {
@@ -43,8 +62,17 @@
 		transition: all 0.5s ease;
 	}
 
+	/* ul {
+		background: rgba(255, 255, 255, 0.42);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(8.6px);
+		-webkit-backdrop-filter: blur(8.6px);
+		border: 1px solid rgba(255, 255, 255, 0.15);
+	} */
+
 	.navbar {
-		background-color: #f0f0d8;
+		background-color: var(--background-color);
 		color: var(--secondary-color);
 		border-bottom: dashed 2px var(--secondary-color);
 	}
